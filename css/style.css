@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #111111;
+}
+
+header > img {
+    width: 180px;
+}
+
+header > nav > ul {
+    list-style: none;
+}
+
+header > a {
+    color: #ebebeb;
+}
+
+header > a:hover{
+    
+}
