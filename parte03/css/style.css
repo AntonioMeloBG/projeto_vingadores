@@ -88,3 +88,41 @@ header a:hover {
 .dots .active {
     background-color: #f13239;
 }
+
+.gallery {
+    max-width: 1200px;
+    margin: 64px auto 0;
+    padding: 0 24px;
+}
+
+.gallery h2 {
+    border-left: 4px solid #f13239;
+    margin-bottom: 32px;
+    padding-left: 8px;
+}
+
+.gallery-row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.gallery-row div {
+    /*
+    Flex-Grow:
+    Flex-Shrink:
+    Flex-Basis:
+    */
+
+    flex: 1 1 250px;
+}
+
+.gallery-row img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.gallery p {
+    font-weight: bold;
+}
