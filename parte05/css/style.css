@@ -11,10 +11,14 @@ body {
 }
 
 header {
+    padding: 8px 24px;
     background-color: #111111;
     display: flex;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 24px;
     
     /*
     space-beetween : Mantém o espaço no meio, jogando cada  conteúdo para um lado.
@@ -74,8 +78,8 @@ header a:hover {
     display: block;
     background-color: #ebebeb;
 
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
 
     cursor: pointer;
@@ -129,8 +133,8 @@ header a:hover {
 }
 
 .history {
-    margin: 64px 0 400px;
-    padding: 92px 24px;
+    margin: 64px 0 0;
+    padding: 92px 24px 0;
     background-color: #111111;
     color: #ebebeb;
 
@@ -178,5 +182,23 @@ header a:hover {
 }
 
 .history a:hover {
+    color: #ebebeb;
+}
+
+footer {
+    padding: 64px 24px;
+
+    text-align: center;
+    background-color: #111111;
+    color: #ebebeb;
+}
+
+footer a {
+    color: #f13239;
+    transition: color 0.2s;
+    font-weight: 900;
+}
+
+footer a:hover {
     color: #ebebeb;
 }
